@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Website Audit Report Template</title>
+  <style>
+    :root { color-scheme: light; --ink:#202536; --muted:#626b7d; --line:#d9deea; --accent:#5146d8; --soft:#f5f6fb; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:#f5f6fa; color:var(--ink); font:15px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif; }
+    main { max-width:1200px; margin:36px auto; padding:32px; background:#fff; border:1px solid var(--line); border-radius:14px; }
+    h1 { margin:0 0 8px; font-size:30px; } h2 { margin-top:32px; font-size:21px; }
+    p { color:var(--muted); } .meta { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; margin:24px 0; }
+    .meta div { padding:12px; background:var(--soft); border-radius:8px; } .label { display:block; font-size:12px; color:var(--muted); text-transform:uppercase; letter-spacing:.06em; }
+    .section-row th { background:#ecebff; color:#302b80; text-align:left; padding:12px; }
+    .table-wrap { overflow-x:auto; } table { width:100%; border-collapse:collapse; font-size:13px; }
+    th,td { border:1px solid var(--line); padding:10px; vertical-align:top; text-align:left; } thead th { background:var(--soft); }
+    .placeholder { color:#737b8d; font-style:italic; } .instructions { padding:14px 18px; background:var(--soft); border-radius:8px; }
+    @media(max-width:700px) { main { margin:12px; padding:18px; } .meta { grid-template-columns:1fr; } }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Website Audit Report</h1>
+  <p>Use this structure as a starting template. Follow the selected audit prompt's exact fields and instructions; do not include sections that its scope excludes.</p>
+  <div class="meta">
+    <div><span class="label">Website / Product</span><span class="placeholder">[Enter name and URL]</span></div>
+    <div><span class="label">Audit type</span><span class="placeholder">[Enter selected audit category]</span></div>
+    <div><span class="label">Audit date</span><span class="placeholder">[Enter date]</span></div>
+  </div>
+  <h2>Findings</h2>
+  <p class="instructions">Replace the example placeholders with evidence-based findings. Add a section header row for each major section, as required by the selected prompt. Do not invent issues, URLs, ratings, or evidence.</p>
+  <div class="table-wrap">
+    <table>
+      <thead><tr>
+        <th>#</th><th>Category</th><th>Sub-Category</th><th>Rating (1–10)</th><th>Key Issue</th><th>Impact</th><th>Area of Action</th><th>Real-World Example</th><th>URL</th><th>Critical (Yes/No)</th>
+      </tr></thead>
+      <tbody>
+        <tr class="section-row"><th colspan="10">[SECTION NAME]</th></tr>
+        <tr>
+          <td class="placeholder">[1]</td><td class="placeholder">[Category]</td><td class="placeholder">[Sub-category]</td><td class="placeholder">[1–10]</td><td class="placeholder">[Observed issue]</td><td class="placeholder">[Impact]</td><td class="placeholder">[Area]</td><td class="placeholder">[Evidence/example]</td><td class="placeholder">[Page URL]</td><td class="placeholder">[Yes/No]</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <h2>Before submitting</h2>
+  <ul>
+    <li>Use the exact output fields and format required by the selected prompt.</li>
+    <li>Keep findings within the chosen audit scope and respect its exclusions.</li>
+    <li>Use specific evidence from the supplied site or design; label unavailable evidence clearly.</li>
+    <li>When the prompt requires HTML-only output, return a downloadable HTML file with no extra text.</li>
+  </ul>
+</main>
+</body>
+</html>
