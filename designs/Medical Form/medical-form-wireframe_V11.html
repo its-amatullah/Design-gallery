@@ -2258,7 +2258,7 @@
             <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" /><path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
           </svg>
         </span>
-        <span class="brand-text">Test App School 2</span>
+        <span class="brand-text">Northstar Demo School</span>
       </div>
       <nav class="sidebar-nav" aria-label="Main navigation">
 
@@ -2463,7 +2463,7 @@
           <div class="profile-menu" id="profileMenu">
             <div class="pm-head">
               <span class="pm-initials" id="pmInitials">XZ</span>
-              <span class="pm-email" id="pmEmail">xyz@yopmail.com</span>
+              <span class="pm-email" id="pmEmail">contact@example.com</span>
             </div>
             <button class="pm-item" type="button">
               <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -2671,13 +2671,13 @@
     </div>
   </div>
 
-  <!-- Developer notes (wireframe only — remove before production) -->
-  <a class="devnotes" id="devNotes" href="https://docs.google.com/document/d/1wFsU6GzTKsFWnBFD7rH_pyMwdKLi4VQR2ZyRz4h4G4I/edit?usp=sharing"
+  <!-- Audit notes (wireframe only — remove before production) -->
+  <a class="devnotes" id="devNotes" href="https://example.com/docs/document/d/1wFsU6GzTKsFWnBFD7rH_pyMwdKLi4VQR2ZyRz4h4G4I/edit?usp=sharing"
      target="_blank" rel="noopener" title="Opens the shared Google Doc for feedback. Wireframe only — not part of the production build.">
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" /><path d="M14 2v4a2 2 0 0 0 2 2h4" /><path d="M16 13H8" /><path d="M16 17H8" />
     </svg>
-    <span class="dn-text">Developer notes &amp; queries</span>
+    <span class="dn-text">Audit notes &amp; queries</span>
     <span class="dn-tag">Not in production</span>
   </a>
 
@@ -2942,7 +2942,7 @@
     /* Sample data */
     const baseStudents = [
       { id: 1, name: "James Mc'Antee", year: "1", cls: "1D", pc: "Niall Ryan", sc: "", cond: true, mod: "Niall Ryan", modAt: "06 Jul 2026, 3:20 PM", sub: "Submitted", ackBy: "Aisling Doherty", ackAt: "06 Jul 2026, 3:21 PM", ack: "Acknowledged" },
-      { id: 2, name: "Roberto Roberts", year: "4", cls: "4A", pc: "Decan Kelly", sc: "Finn Kelly", cond: true, mod: "Finn Kelly", modAt: "13 Oct 2025, 3:14 PM", sub: "Submitted", ackBy: "Aisling Doherty", ackAt: "26 Nov 2025, 5:22 AM", ack: "Acknowledged" },
+      { id: 2, name: "Roberto Roberts", year: "4", cls: "4A", pc: "Decan Kelly", sc: "Sam Carter", cond: true, mod: "Sam Carter", modAt: "13 Oct 2025, 3:14 PM", sub: "Submitted", ackBy: "Aisling Doherty", ackAt: "26 Nov 2025, 5:22 AM", ack: "Acknowledged" },
       { id: 3, name: "Aoife Byrne", year: "2", cls: "2B", pc: "Sean Byrne", sc: "Mary Byrne", cond: false, mod: "Sean Byrne", modAt: "02 Jun 2026, 9:10 AM", sub: "Submitted", ackBy: "", ackAt: "", ack: "Not Acknowledged" },
       { id: 4, name: "Liam Walsh", year: "3", cls: "3C", pc: "Grace Walsh", sc: "", cond: false, mod: "", modAt: "", sub: "Not Submitted", ackBy: "", ackAt: "", ack: "Not Acknowledged" },
       { id: 5, name: "Sophie O'Brien", year: "5", cls: "5D", pc: "Kevin O'Brien", sc: "Anne O'Brien", cond: true, mod: "Kevin O'Brien", modAt: "20 May 2026, 1:05 PM", sub: "Submitted", ackBy: "David Lee", ackAt: "21 May 2026, 8:00 AM", ack: "Acknowledged" },
@@ -3800,7 +3800,7 @@
     }
     /* Build medical-form PDF pages from the shared FORM schema */
     /* ---- PDF layout helpers ---- */
-    const SCHOOL_NAME = 'Test App School 2';
+    const SCHOOL_NAME = 'Northstar Demo School';
     /* Helvetica character widths (per 1000 units) for text measuring / wrapping */
     const HW = { ' ': 278, '!': 278, '"': 355, '#': 556, '$': 556, '%': 889, '&': 667, "'": 191, '(': 333, ')': 333, '*': 389, '+': 584, ',': 278, '-': 333, '.': 278, '/': 278, ':': 278, ';': 278, '<': 584, '=': 584, '>': 584, '?': 556, '@': 1015, '[': 278, '\\': 278, ']': 278, '^': 469, '_': 556, '`': 333, '{': 334, '|': 260, '}': 334, '~': 584 };
     '0123456789'.split('').forEach(c => HW[c] = 556);

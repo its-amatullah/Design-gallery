@@ -1,6 +1,7 @@
 {
-  "module_name": "Web build- school website",
-  "developer_name": "Sanket",
+  "module_name": "School Website Template",
+  "developer_name": "Amatullah",
   "date_uploaded": "19-09-2026",
-  "date_modified": "10-10-2026"
+  "date_modified": "10-10-2026",
+  "description": "A reusable school website template for future builds, with a complete navigation structure including menus and submenus."
 }

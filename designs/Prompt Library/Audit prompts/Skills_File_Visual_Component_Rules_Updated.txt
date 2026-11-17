@@ -146,7 +146,7 @@ Where tabular comparison is important, numeric values should be presented consis
 
 ## 6. Iconography Rules
 
-### ICO — Icon Use and Presentation
+### ICO — Icon Use and Westbridge
 
 **ICO-01 — Meaning**
 
@@ -212,7 +212,7 @@ Disabled components should look unavailable without becoming so faint that their
 
 Important states should not rely on colour alone when doing so would make them difficult to distinguish.
 
-## 8. Visibility and Presentation Rules
+## 8. Visibility and Westbridge Rules
 
 ### VIS — Component Visibility
 
@@ -998,7 +998,7 @@ When a component appears across several screens, inspect whether changes in appe
 
 ## 30. Responsive Component Behaviour
 
-### RSP — Responsive Presentation
+### RSP — Responsive Westbridge
 
 Apply these rules only to the viewport sizes and device layouts available for inspection.
 

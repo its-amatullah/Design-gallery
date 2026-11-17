@@ -10,7 +10,7 @@ How to use the prompts for AI review
 
 
 Please refer to the attached HTML report and provide your output using the given HTML report as a template:
-https://drive.google.com/drive/folders/16Ng81S61otAKCdNB_uY93brMT7icdZVM?usp=sharing
+https://example.com/resources/drive/folders/16Ng81S61otAKCdNB_uY93brMT7icdZVM?usp=sharing
 
 
 1. Unified design system evaluation

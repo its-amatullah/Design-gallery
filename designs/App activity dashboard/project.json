@@ -1,6 +1,7 @@
 {
-  "module_name": "App activity dashboard",
-  "developer_name": "Harsh",
+  "module_name": "App Activity Dashboard",
+  "developer_name": "Amatullah",
   "date_uploaded": "10-10-2026",
-  "date_modified": "11-10-2026"
+  "date_modified": "11-10-2026",
+  "description": "A centralised dashboard bringing together an overview of school-wide activities and key activity insights."
 }

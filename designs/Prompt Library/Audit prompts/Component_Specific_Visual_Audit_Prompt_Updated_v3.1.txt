@@ -179,7 +179,7 @@ Review all categories against supplied evidence and report coverage. This taxono
 9.28 Component Sizing and Proportions — width, height, density, relative proportions, uneven repeated instances, and component fit within its container.
 9.29 Borders, Surfaces, and Visual Treatments — borders, dividers, backgrounds, shadows, radii, and surface treatment consistency.
 9.30 Visible Component States and Variants — only states shown in supplied evidence; compare visual distinction and consistency with explicit rules.
-9.31 Responsive Component Presentation — component wrapping, stacking, compression, overflow, clipping, and sizing across supplied viewport variants only.
+9.31 Responsive Component Westbridge — component wrapping, stacking, compression, overflow, clipping, and sizing across supplied viewport variants only.
 9.32 Cross-Screen Component Consistency — equivalent components across multiple supplied screens. Do not claim cross-screen inconsistency if only one screen is supplied.
 9.33 Footers and Bottom Action Areas — footer controls, bottom bars, sticky-looking visible regions, action grouping, alignment, and viewport-edge clipping.
 9.34 Autocomplete and Typeahead Components — suggestion panels, option rows, highlighted options when shown, option icons, text fit, alignment, and clipping.

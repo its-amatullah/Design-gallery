@@ -2,5 +2,6 @@
   "module_name": "Student Profile",
   "developer_name": "Amatullah",
   "date_uploaded": "10-10-2026",
-  "date_modified": "12-11-2026"
+  "date_modified": "12-11-2026",
+  "description": "A centralised student profile for viewing records and information, with connected actions across multiple school modules."
 }

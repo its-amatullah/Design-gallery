@@ -1,6 +1,7 @@
 {
   "module_name": "Login page",
-  "developer_name": "Krishna",
+  "developer_name": "Amatullah",
   "date_uploaded": "11-10-2026",
-  "date_modified": "20-10-2026"
+  "date_modified": "20-10-2026",
+  "description": "A streamlined sign-in experience with clear account access and password-recovery flows."
 }

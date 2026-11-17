@@ -1,6 +1,7 @@
 {
-  "module_name": "Shop rebuild",
-  "developer_name": "Kritika",
+  "module_name": "Shop Rebuild",
+  "developer_name": "Amatullah",
   "date_uploaded": "07-08-2026",
-  "date_modified": "02-09-2026"
+  "date_modified": "02-09-2026",
+  "description": "A redesigned shop module covering different payment types, order items and their associated actions in a clearer workflow."
 }
